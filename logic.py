@@ -1,0 +1,1 @@
+class APP:    def __init__(self,lists,host):        self.lists = lists        self.host = host        self.appen()    def appen (self):        rezult =[]        for d in self.lists:            rezult.append(f'{self.host}{d}')        return rezult
