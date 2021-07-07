@@ -1,0 +1,1 @@
+from selenium import webdriverimport timep = {'http': 'http://45.160.78.25:999', 'https': 'http://45.160.78.25:999'}print(str(p['http'])[7:])
